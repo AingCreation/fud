@@ -221,7 +221,7 @@ function claims($token,$voc)
         return false;
         }
     }
-     function pengen($token)
+     function iwan($token)
     {
     $data = '{"promo_code":"COBAGOFOOD090320A"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
